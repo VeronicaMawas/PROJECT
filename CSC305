@@ -1,3 +1,6 @@
+#This function subtract two numbers
+def subtract(x, y) : return(x-y) 
+
 print("What would you like to do?")
 print("1.Sum between 2 numbers")
 print("2.Subtract between 2 numbers")
@@ -12,7 +15,9 @@ while True:
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
 
-
+        
+        elif option == '2':
+         print(num1, "-", num2, "=", subtract(num1, num2)) 
 
         break
     else:
